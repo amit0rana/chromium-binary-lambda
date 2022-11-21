@@ -49,7 +49,7 @@ import site
 
 teste =site.getsitepackages()
 DOWNLOADS_FOLDER = Path(site.getsitepackages()[1]) /'chromium_binary_lambda'/ 'local-chromium'
-DOWNLOAD_HOST = 'https://storage.googleapis.com'
+DOWNLOAD_HOST = 'https://commondatastorage.googleapis.com'
 BASE_URL = f'{DOWNLOAD_HOST}/chromium-browser-snapshots'
 
 REVISION = '1050513'
