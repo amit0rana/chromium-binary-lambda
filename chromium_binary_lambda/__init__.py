@@ -48,7 +48,7 @@ temp_path = os.environ.get('CHROMIUM_BINARY_LAMBDA_PATH', AppDirs('chromium_bina
 import site
 
 teste =site.getsitepackages()
-DOWNLOADS_FOLDER = Path(site.getsitepackages()[1]) /'chromium_binary_lambda'/ 'local-chromium'
+DOWNLOADS_FOLDER = Path(site.getsitepackages()[0]) /'chromium_binary_lambda'/ 'local-chromium'
 DOWNLOAD_HOST = 'https://commondatastorage.googleapis.com'
 BASE_URL = f'{DOWNLOAD_HOST}/chromium-browser-snapshots'
 
