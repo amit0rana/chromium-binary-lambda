@@ -52,7 +52,7 @@ DOWNLOADS_FOLDER = Path(site.getsitepackages()[1]) /'chromium_binary_lambda'/ 'l
 DOWNLOAD_HOST = 'https://commondatastorage.googleapis.com'
 BASE_URL = f'{DOWNLOAD_HOST}/chromium-browser-snapshots'
 
-REVISION = '1050513'
+REVISION = '1050515'
 
 NO_PROGRESS_BAR = os.environ.get('CHROMIUM_LAMBDA_NO_PROGRESS_BAR', '')
 if NO_PROGRESS_BAR.lower() in ('1', 'true'):
